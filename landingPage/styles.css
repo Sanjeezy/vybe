@@ -13,8 +13,9 @@ video {
 	min-width: 100%;
 	min-height: 100%;
 	/* keep aspect ratio same always */
-	width: auto;
-	height: auto;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	z-index: 1;
 }
 
@@ -43,7 +44,6 @@ section {
 	position: relative;
 	color: white;
 	text-align: center;
-	margin-top: 20px;
 }
 
 input {
@@ -70,6 +70,17 @@ p input {
   font-size: 25px;
   background-color: #ecf0f1;
   color: #2c3e50;
+}
+
+#dematerialize {
+	background-color: white;
+	border-bottom: none;
+	width: 250px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 2.2rem !important;
 }
 
 h1 {
